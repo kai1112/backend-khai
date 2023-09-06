@@ -1,0 +1,29 @@
+2023-09-03T02:56:08.711Z [31merror[39m: uncaughtException: logger.error is not a function
+TypeError: logger.error is not a function
+    at remove (D:\đồ án\final_project_khai\controllers\role.controller.js:44:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) - TypeError: logger.error is not a function
+    at remove (D:\đồ án\final_project_khai\controllers\role.controller.js:44:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+{"date":"Sun Sep 03 2023 09:56:08 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: logger.error is not a function\nTypeError: logger.error is not a function\n    at remove (D:\\đồ án\\final_project_khai\\controllers\\role.controller.js:44:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":305189.89},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18297032,"external":19241952,"heapTotal":23777280,"heapUsed":21823512,"rss":59359232},"pid":22388,"uid":null,"version":"v18.16.1"},"stack":"TypeError: logger.error is not a function\n    at remove (D:\\đồ án\\final_project_khai\\controllers\\role.controller.js:44:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":16,"file":"D:\\đồ án\\final_project_khai\\controllers\\role.controller.js","function":"remove","line":44,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+2023-09-03T02:59:23.042Z [31merror[39m: uncaughtException: createLogger.error is not a function
+TypeError: createLogger.error is not a function
+    at remove (D:\đồ án\final_project_khai\controllers\role.controller.js:44:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) - TypeError: createLogger.error is not a function
+    at remove (D:\đồ án\final_project_khai\controllers\role.controller.js:44:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+{"date":"Sun Sep 03 2023 09:59:23 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: createLogger.error is not a function\nTypeError: createLogger.error is not a function\n    at remove (D:\\đồ án\\final_project_khai\\controllers\\role.controller.js:44:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":305384.203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18845151,"external":19792290,"heapTotal":38195200,"heapUsed":26679192,"rss":75042816},"pid":21324,"uid":null,"version":"v18.16.1"},"stack":"TypeError: createLogger.error is not a function\n    at remove (D:\\đồ án\\final_project_khai\\controllers\\role.controller.js:44:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":22,"file":"D:\\đồ án\\final_project_khai\\controllers\\role.controller.js","function":"remove","line":44,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+2023-09-03T03:05:51.640Z [31merror[39m: uncaughtException: Cannot read properties of undefined (reading 'error')
+TypeError: Cannot read properties of undefined (reading 'error')
+    at create (D:\đồ án\final_project_khai\controllers\role.controller.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) - TypeError: Cannot read properties of undefined (reading 'error')
+    at create (D:\đồ án\final_project_khai\controllers\role.controller.js:16:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+{"date":"Sun Sep 03 2023 10:05:51 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Cannot read properties of undefined (reading 'error')\nTypeError: Cannot read properties of undefined (reading 'error')\n    at create (D:\\đồ án\\final_project_khai\\controllers\\role.controller.js:16:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","os":{"loadavg":[0,0,0],"uptime":305772.812},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18295648,"external":19240568,"heapTotal":24039424,"heapUsed":22176296,"rss":59990016},"pid":2744,"uid":null,"version":"v18.16.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'error')\n    at create (D:\\đồ án\\final_project_khai\\controllers\\role.controller.js:16:35)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":35,"file":"D:\\đồ án\\final_project_khai\\controllers\\role.controller.js","function":"create","line":16,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"process.processTicksAndRejections","line":95,"method":"processTicksAndRejections","native":false}]}
+2023-09-03T03:14:29.915Z [31merror[39m: {
+  name: 'admin11',
+  status: 1,
+  _id: new ObjectId("64f3fa153fc5d9df05d1bca0"),
+  createdAt: 2023-09-03T03:14:29.897Z,
+  updatedAt: 2023-09-03T03:14:29.897Z,
+  __v: 0
+}

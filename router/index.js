@@ -1,16 +1,16 @@
 const router = require("express").Router();
 
 // using router Brand
-const Brand = require('./brand.router')
-router.use('/brand', Brand)
+const Brand = require("./brand.router");
+router.use("/brand", Brand);
 
 // using router Category
-const Category = require('./category.router')
-router.use('/category', Category)
+const Category = require("./category.router");
+router.use("/category", Category);
 
 // using router Product
-// const Product = require('./product.router')
-// router.use('/Product', Product)
+const Product = require("./product.router");
+router.use("/product", Product);
 
 // using router role
 const Role = require("./role.router");
@@ -21,7 +21,7 @@ const User = require("./user.router");
 router.use("/user", User);
 
 // using router Voucher
-// const Voucher = require('./voucher.router')
-// router.use('/voucher', Voucher)
+const Voucher = require("./voucher.router");
+router.use("/voucher", Voucher);
 
 module.exports = router;

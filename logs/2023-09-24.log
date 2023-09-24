@@ -1,0 +1,942 @@
+2023-09-24T08:32:11.481Z [31merror[39m: undefined
+2023-09-24T08:32:52.111Z [31merror[39m: uncaughtException: let is disallowed as a lexically bound name
+D:\đồ án\final_project_khai\controllers\product.controller.js:17
+    let img = [];
+    ^^^
+
+SyntaxError: let is disallowed as a lexically bound name
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:17
+    let img = [];
+    ^^^
+
+SyntaxError: let is disallowed as a lexically bound name
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:32:52 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: let is disallowed as a lexically bound name\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:17\n    let img = [];\n    ^^^\n\nSyntaxError: let is disallowed as a lexically bound name\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":790569.109},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37408768,"heapUsed":25600736,"rss":73887744},"pid":10008,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:17\n    let img = [];\n    ^^^\n\nSyntaxError: let is disallowed as a lexically bound name\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:33:02.637Z [31merror[39m: uncaughtException: Unexpected token ')'
+D:\đồ án\final_project_khai\controllers\product.controller.js:16
+      for (let i = 0; i< req.)
+                             ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:16
+      for (let i = 0; i< req.)
+                             ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:33:02 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token ')'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:16\n      for (let i = 0; i< req.)\n                             ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":790579.64},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18850815,"external":19778850,"heapTotal":37670912,"heapUsed":25655264,"rss":73859072},"pid":23712,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:16\n      for (let i = 0; i< req.)\n                             ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:33:04.355Z [31merror[39m: uncaughtException: Unexpected token ')'
+D:\đồ án\final_project_khai\controllers\product.controller.js:16
+      for (let i = 0; i< req.)
+                             ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:16
+      for (let i = 0; i< req.)
+                             ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:33:04 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token ')'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:16\n      for (let i = 0; i< req.)\n                             ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":790581.359},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37670912,"heapUsed":25624976,"rss":73883648},"pid":21144,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:16\n      for (let i = 0; i< req.)\n                             ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:33:09.429Z [31merror[39m: uncaughtException: Unexpected token ')'
+D:\đồ án\final_project_khai\controllers\product.controller.js:16
+      for (let i = 0; i< req.files)
+                                  ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:16
+      for (let i = 0; i< req.files)
+                                  ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:33:09 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token ')'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:16\n      for (let i = 0; i< req.files)\n                                  ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":790586.437},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37933056,"heapUsed":25735016,"rss":73641984},"pid":21028,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:16\n      for (let i = 0; i< req.files)\n                                  ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:34:18.516Z [31merror[39m: undefined
+2023-09-24T08:34:55.485Z [31merror[39m: undefined
+2023-09-24T08:35:26.304Z [31merror[39m: undefined
+2023-09-24T08:35:48.004Z [31merror[39m: undefined
+2023-09-24T08:35:59.960Z [31merror[39m: undefined
+2023-09-24T08:36:48.948Z [31merror[39m: undefined
+2023-09-24T08:37:53.667Z [31merror[39m: undefined
+2023-09-24T08:39:37.472Z [31merror[39m: undefined
+2023-09-24T08:44:15.497Z [31merror[39m: uncaughtException: Unexpected identifier
+D:\đồ án\final_project_khai\controllers\product.controller.js:70
+      let UpdateCategory = await Category.findOneAndUpdate(category);
+      ^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:70
+      let UpdateCategory = await Category.findOneAndUpdate(category);
+      ^^^
+
+SyntaxError: Unexpected identifier
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:44:15 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected identifier\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:70\n      let UpdateCategory = await Category.findOneAndUpdate(category);\n      ^^^\n\nSyntaxError: Unexpected identifier\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791252.468},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18873210,"external":19801245,"heapTotal":37670912,"heapUsed":25740328,"rss":73789440},"pid":25996,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:70\n      let UpdateCategory = await Category.findOneAndUpdate(category);\n      ^^^\n\nSyntaxError: Unexpected identifier\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:44:20.351Z [31merror[39m: uncaughtException: Lexical declaration cannot appear in a single-statement context
+D:\đồ án\final_project_khai\controllers\product.controller.js:70
+      let UpdateCategory = await Category.findOneAndUpdate(category);
+      ^^^
+
+SyntaxError: Lexical declaration cannot appear in a single-statement context
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:70
+      let UpdateCategory = await Category.findOneAndUpdate(category);
+      ^^^
+
+SyntaxError: Lexical declaration cannot appear in a single-statement context
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:44:20 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Lexical declaration cannot appear in a single-statement context\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:70\n      let UpdateCategory = await Category.findOneAndUpdate(category);\n      ^^^\n\nSyntaxError: Lexical declaration cannot appear in a single-statement context\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791257.343},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37670912,"heapUsed":25756640,"rss":74104832},"pid":26132,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:70\n      let UpdateCategory = await Category.findOneAndUpdate(category);\n      ^^^\n\nSyntaxError: Lexical declaration cannot appear in a single-statement context\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:44:24.344Z [31merror[39m: uncaughtException: Lexical declaration cannot appear in a single-statement context
+D:\đồ án\final_project_khai\controllers\product.controller.js:70
+      let UpdateCategory = await Category.findOneAndUpdate(category);
+      ^^^
+
+SyntaxError: Lexical declaration cannot appear in a single-statement context
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:70
+      let UpdateCategory = await Category.findOneAndUpdate(category);
+      ^^^
+
+SyntaxError: Lexical declaration cannot appear in a single-statement context
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:44:24 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Lexical declaration cannot appear in a single-statement context\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:70\n      let UpdateCategory = await Category.findOneAndUpdate(category);\n      ^^^\n\nSyntaxError: Lexical declaration cannot appear in a single-statement context\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791261.328},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18850815,"external":19778850,"heapTotal":37408768,"heapUsed":25524080,"rss":73445376},"pid":16372,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:70\n      let UpdateCategory = await Category.findOneAndUpdate(category);\n      ^^^\n\nSyntaxError: Lexical declaration cannot appear in a single-statement context\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:44:31.032Z [31merror[39m: uncaughtException: Unexpected token ')'
+D:\đồ án\final_project_khai\controllers\product.controller.js:69
+    if(req.body.status || req.)
+                              ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:69
+    if(req.body.status || req.)
+                              ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:44:31 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token ')'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:69\n    if(req.body.status || req.)\n                              ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791268.031},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18856826,"external":19784861,"heapTotal":37408768,"heapUsed":25565008,"rss":73932800},"pid":24352,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:69\n    if(req.body.status || req.)\n                              ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:44:42.171Z [31merror[39m: uncaughtException: Lexical declaration cannot appear in a single-statement context
+D:\đồ án\final_project_khai\controllers\product.controller.js:70
+      let UpdateCategory = await Category.findOneAndUpdate(category);
+      ^^^
+
+SyntaxError: Lexical declaration cannot appear in a single-statement context
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:70
+      let UpdateCategory = await Category.findOneAndUpdate(category);
+      ^^^
+
+SyntaxError: Lexical declaration cannot appear in a single-statement context
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:44:42 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Lexical declaration cannot appear in a single-statement context\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:70\n      let UpdateCategory = await Category.findOneAndUpdate(category);\n      ^^^\n\nSyntaxError: Lexical declaration cannot appear in a single-statement context\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791279.171},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18875148,"external":19803183,"heapTotal":37408768,"heapUsed":25473480,"rss":73781248},"pid":11004,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:70\n      let UpdateCategory = await Category.findOneAndUpdate(category);\n      ^^^\n\nSyntaxError: Lexical declaration cannot appear in a single-statement context\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:48:21.060Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:7
+    let product = await Product.findOne({ name: req.body.name, status: });
+                                                                       ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:7
+    let product = await Product.findOne({ name: req.body.name, status: });
+                                                                       ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:48:21 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:7\n    let product = await Product.findOne({ name: req.body.name, status: });\n                                                                       ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791498.062},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18873210,"external":19801245,"heapTotal":37670912,"heapUsed":25655776,"rss":73781248},"pid":25756,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:7\n    let product = await Product.findOne({ name: req.body.name, status: });\n                                                                       ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:50:48.581Z [31merror[39m: uncaughtException: Missing initializer in const declaration
+D:\đồ án\final_project_khai\controllers\product.controller.js:104
+const find
+      ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:104
+const find
+      ^^^^
+
+SyntaxError: Missing initializer in const declaration
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:50:48 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Missing initializer in const declaration\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:104\nconst find\n      ^^^^\n\nSyntaxError: Missing initializer in const declaration\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791645.578},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18873210,"external":19801245,"heapTotal":37408768,"heapUsed":25746984,"rss":73809920},"pid":25812,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:104\nconst find\n      ^^^^\n\nSyntaxError: Missing initializer in const declaration\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:53:44.161Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:107
+    } catch (err) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:107
+    } catch (err) {
+    ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:53:44 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:107\n    } catch (err) {\n    ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791821.156},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18856826,"external":19784861,"heapTotal":37408768,"heapUsed":25492656,"rss":73891840},"pid":24156,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:107\n    } catch (err) {\n    ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:54:30.501Z [31merror[39m: uncaughtException: Unexpected token ')'
+D:\đồ án\final_project_khai\controllers\product.controller.js:108
+      if()
+         ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:108
+      if()
+         ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:54:30 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token ')'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:108\n      if()\n         ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791867.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18850815,"external":19778850,"heapTotal":37408768,"heapUsed":25516368,"rss":73711616},"pid":11164,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:108\n      if()\n         ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:54:33.750Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:109
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:109
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:54:33 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:109\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791870.75},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37670912,"heapUsed":25672360,"rss":74186752},"pid":15328,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:109\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:54:44.053Z [31merror[39m: uncaughtException: Unexpected token ','
+D:\đồ án\final_project_khai\controllers\product.controller.js:107
+      ,
+      ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:107
+      ,
+      ^
+
+SyntaxError: Unexpected token ','
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:54:44 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token ','\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:107\n      ,\n      ^\n\nSyntaxError: Unexpected token ','\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791881.062},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18873210,"external":19801245,"heapTotal":37408768,"heapUsed":25612560,"rss":73605120},"pid":26452,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:107\n      ,\n      ^\n\nSyntaxError: Unexpected token ','\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:54:46.296Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:109
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:109
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:54:46 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:109\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791883.296},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18850815,"external":19778850,"heapTotal":37408768,"heapUsed":25485392,"rss":73732096},"pid":228,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:109\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:54:50.183Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:54:50 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791887.187},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18852753,"external":19780788,"heapTotal":37670912,"heapUsed":25487512,"rss":73719808},"pid":23056,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:54:56.908Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:54:56 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791893.906},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37670912,"heapUsed":25655688,"rss":73760768},"pid":16068,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:54:59.413Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:54:59 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791896.421},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18873210,"external":19801245,"heapTotal":37408768,"heapUsed":25562400,"rss":73908224},"pid":12044,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:55:04.493Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:55:04 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791901.5},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18856826,"external":19784861,"heapTotal":37408768,"heapUsed":25555752,"rss":73793536},"pid":13068,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:55:10.103Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:110
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:55:10 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791907.093},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37670912,"heapUsed":25580016,"rss":73887744},"pid":21004,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:110\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:55:41.144Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:115
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:115
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:55:41 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:115\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791938.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37408768,"heapUsed":25529168,"rss":74014720},"pid":13196,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:115\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:55:47.137Z [31merror[39m: uncaughtException: Unexpected token '}'
+D:\đồ án\final_project_khai\controllers\product.controller.js:115
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:115
+  } catch (err) {
+  ^
+
+SyntaxError: Unexpected token '}'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:55:47 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token '}'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:115\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791944.14},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18842623,"external":19770658,"heapTotal":37670912,"heapUsed":25533552,"rss":73633792},"pid":25200,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:115\n  } catch (err) {\n  ^\n\nSyntaxError: Unexpected token '}'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:55:55.515Z [31merror[39m: uncaughtException: missing ) after argument list
+D:\đồ án\final_project_khai\controllers\product.controller.js:115
+  } catch (err) {
+  ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:115
+  } catch (err) {
+  ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:55:55 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: missing ) after argument list\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:115\n  } catch (err) {\n  ^\n\nSyntaxError: missing ) after argument list\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791952.515},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18873210,"external":19801245,"heapTotal":37670912,"heapUsed":25775504,"rss":73965568},"pid":24588,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:115\n  } catch (err) {\n  ^\n\nSyntaxError: missing ) after argument list\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:56:00.887Z [31merror[39m: uncaughtException: missing ) after argument list
+D:\đồ án\final_project_khai\controllers\product.controller.js:115
+  } catch (err) {
+  ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:115
+  } catch (err) {
+  ^
+
+SyntaxError: missing ) after argument list
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:7:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 15:56:00 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: missing ) after argument list\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:115\n  } catch (err) {\n  ^\n\nSyntaxError: missing ) after argument list\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":791957.875},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18850815,"external":19778850,"heapTotal":37933056,"heapUsed":25473112,"rss":73916416},"pid":23332,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:115\n  } catch (err) {\n  ^\n\nSyntaxError: missing ) after argument list\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:7:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":7,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T08:57:44.993Z [31merror[39m: undefined
+2023-09-24T08:59:18.223Z [32minfo[39m: undefined
+2023-09-24T08:59:18.226Z [31merror[39m: undefined
+2023-09-24T09:03:12.805Z [31merror[39m: uncaughtException: Lexical declaration cannot appear in a single-statement context
+D:\đồ án\final_project_khai\controllers\product.controller.js:71
+    let UpdateProduct = await Product.findOneAndUpdate(product);
+    ^^^
+
+SyntaxError: Lexical declaration cannot appear in a single-statement context
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:71
+    let UpdateProduct = await Product.findOneAndUpdate(product);
+    ^^^
+
+SyntaxError: Lexical declaration cannot appear in a single-statement context
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 16:03:12 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Lexical declaration cannot appear in a single-statement context\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:71\n    let UpdateProduct = await Product.findOneAndUpdate(product);\n    ^^^\n\nSyntaxError: Lexical declaration cannot appear in a single-statement context\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":792389.812},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37408768,"heapUsed":25591528,"rss":74051584},"pid":9184,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:71\n    let UpdateProduct = await Product.findOneAndUpdate(product);\n    ^^^\n\nSyntaxError: Lexical declaration cannot appear in a single-statement context\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T09:03:57.109Z [31merror[39m: uncaughtException: Unexpected token ')'
+D:\đồ án\final_project_khai\controllers\product.controller.js:69
+    if (req.body.status || req.body.amount == 0 || ) product.status = 2;
+                                                   ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:69
+    if (req.body.status || req.body.amount == 0 || ) product.status = 2;
+                                                   ^
+
+SyntaxError: Unexpected token ')'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 16:03:57 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token ')'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:69\n    if (req.body.status || req.body.amount == 0 || ) product.status = 2;\n                                                   ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":792434.109},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37670912,"heapUsed":25645616,"rss":73994240},"pid":13536,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:69\n    if (req.body.status || req.body.amount == 0 || ) product.status = 2;\n                                                   ^\n\nSyntaxError: Unexpected token ')'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T09:55:29.061Z [31merror[39m: uncaughtException: Unexpected token ':'
+D:\đồ án\final_project_khai\router\product.router.js:24
+{ name: 'avatar', maxCount: 1 },
+                          ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\index.js:12:17)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\router\product.router.js:24
+{ name: 'avatar', maxCount: 1 },
+                          ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\index.js:12:17)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 16:55:29 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token ':'\nD:\\đồ án\\final_project_khai\\router\\product.router.js:24\n{ name: 'avatar', maxCount: 1 },\n                          ^\n\nSyntaxError: Unexpected token ':'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\index.js:12:17)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":795526.062},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37408768,"heapUsed":25550536,"rss":73973760},"pid":17180,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\router\\product.router.js:24\n{ name: 'avatar', maxCount: 1 },\n                          ^\n\nSyntaxError: Unexpected token ':'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\index.js:12:17)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":17,"file":"D:\\đồ án\\final_project_khai\\router\\index.js","function":null,"line":12,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T09:56:17.162Z [31merror[39m: uncaughtException: Unexpected token 'catch'
+D:\đồ án\final_project_khai\controllers\product.controller.js:46
+  } catch (err) {
+    ^^^^^
+
+SyntaxError: Unexpected token 'catch'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:46
+  } catch (err) {
+    ^^^^^
+
+SyntaxError: Unexpected token 'catch'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 16:56:17 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token 'catch'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:46\n  } catch (err) {\n    ^^^^^\n\nSyntaxError: Unexpected token 'catch'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":795574.171},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18865018,"external":19793053,"heapTotal":37670912,"heapUsed":25841144,"rss":73879552},"pid":15868,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:46\n  } catch (err) {\n    ^^^^^\n\nSyntaxError: Unexpected token 'catch'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}
+2023-09-24T09:56:51.371Z [31merror[39m: uncaughtException: Unexpected token ':'
+D:\đồ án\final_project_khai\controllers\product.controller.js:35
+      backgroud_avatar: JSON.stringify(img),
+                      ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14) - D:\đồ án\final_project_khai\controllers\product.controller.js:35
+      backgroud_avatar: JSON.stringify(img),
+                      ^
+
+SyntaxError: Unexpected token ':'
+    at internalCompileFunction (node:internal/vm:73:18)
+    at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+    at Module._compile (node:internal/modules/cjs/loader:1220:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+    at Module.load (node:internal/modules/cjs/loader:1119:32)
+    at Module._load (node:internal/modules/cjs/loader:960:12)
+    at Module.require (node:internal/modules/cjs/loader:1143:19)
+    at require (node:internal/modules/cjs/helpers:110:18)
+    at Object.<anonymous> (D:\đồ án\final_project_khai\router\product.router.js:8:5)
+    at Module._compile (node:internal/modules/cjs/loader:1256:14)
+{"date":"Sun Sep 24 2023 16:56:51 GMT+0700 (Indochina Time)","error":{},"exception":true,"level":"error","message":"uncaughtException: Unexpected token ':'\nD:\\đồ án\\final_project_khai\\controllers\\product.controller.js:35\n      backgroud_avatar: JSON.stringify(img),\n                      ^\n\nSyntaxError: Unexpected token ':'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","os":{"loadavg":[0,0,0],"uptime":795608.375},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\đồ án\\final_project_khai\\app.js"],"cwd":"D:\\đồ án\\final_project_khai","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18869115,"external":19797150,"heapTotal":37408768,"heapUsed":25576168,"rss":73863168},"pid":17480,"uid":null,"version":"v18.16.1"},"stack":"D:\\đồ án\\final_project_khai\\controllers\\product.controller.js:35\n      backgroud_avatar: JSON.stringify(img),\n                      ^\n\nSyntaxError: Unexpected token ':'\n    at internalCompileFunction (node:internal/vm:73:18)\n    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:110:18)\n    at Object.<anonymous> (D:\\đồ án\\final_project_khai\\router\\product.router.js:8:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)","trace":[{"column":18,"file":"node:internal/vm","function":"internalCompileFunction","line":73,"method":null,"native":false},{"column":20,"file":"node:internal/modules/cjs/loader","function":"wrapSafe","line":1178,"method":null,"native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1220,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1310,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1119,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":960,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1143,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":110,"method":null,"native":false},{"column":5,"file":"D:\\đồ án\\final_project_khai\\router\\product.router.js","function":null,"line":8,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1256,"method":"_compile","native":false}]}

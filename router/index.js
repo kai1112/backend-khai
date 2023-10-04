@@ -11,7 +11,8 @@ router.use("/category", Category);
 // using router Product
 const Product = require("./product.router");
 router.use("/product", Product);
-
+const authRoute = require("./auth.router");
+router.use("/auth", authRoute);
 // using router role
 const Role = require("./role.router");
 router.use("/role", Role);

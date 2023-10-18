@@ -4,7 +4,6 @@ const path = require("path");
 const cookieParser = require("cookie-parser");
 const app = express();
 const session = require("express-session");
-console.log(7);
 const router = require("./router/index");
 
 app.use(express.urlencoded({ extended: false }));

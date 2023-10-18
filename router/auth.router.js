@@ -1,5 +1,5 @@
 const router = require("express").Router()
-const controller = require("../controllers/authController")
+const controller = require("../controllers/auth.controller")
 
 
 // register router

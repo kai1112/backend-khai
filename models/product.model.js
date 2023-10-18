@@ -6,10 +6,11 @@ const ProductSchema = mongoose.Schema(
     status: { type: Number, enum: [1, 2, 3], default: 1 }, // 1 là còn hàng, 2 là hết hàng, 3 là đã bị xoá
     code: String,
     detail: String,
-    img: String,
+    avatar: String,
     amount: Number,
     price: Number,
     brandID: String,
+    backgroud_avatar: String,
     voucherID: { type: String, default: null },
   },
   { collection: "Product", timestamps: true }

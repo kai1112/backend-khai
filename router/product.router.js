@@ -5,6 +5,7 @@ const {
   update,
   remove,
   findProduct,
+  viewDetail,
 } = require("../controllers/product.controller");
 const multer = require("multer");
 
@@ -22,14 +23,15 @@ const storage = multer.diskStorage({
 const upload = multer({ storage: storage });
 
 var cpUpload = upload.fields([
-  { name: 'avatar', maxCount: 1 },
-  { name: 'backgroud_avatar', maxCount: 5 },
+  { name: "avatar", maxCount: 1 },
+  { name: "backgroud_avatar", maxCount: 5 },
 ]);
 
 router.get("/", view);
 router.get("/find", findProduct);
-router.post("/", cpUpload, create);
-router.put("/update/:id", update);
+router.get("/:id", viewDetail);
+router.post("/", checkToken, checkRoleAdmin, cpUpload, create);
+router.put("/update/:id", checkToken, checkRoleAdmin, update);
 router.delete("/remove/:id", remove);
 
 module.exports = router;

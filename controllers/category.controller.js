@@ -3,8 +3,7 @@ const createLogger = require("../middleware/logger");
 
 const create = async (req, res) => {
   try {
-    //   if (req.user.roleID.name === "admin" && req.user.roleID.status === 1) {
-    let category = await Category.findOne({ name: req.body.name });
+    let category = await Category.findOne({ name: req.body.name, status: 1 });
     if (category)
       return res.json({ status: 404, message: "Category has already!!!" });
     let newCategory = await Category.create({
@@ -31,6 +30,23 @@ const view = async (req, res) => {
     console.log(category);
 
     if (!category || category.length === 0)
+      return res.json({ status: 404, message: "Category not found!!!" });
+    return res.json({
+      status: 200,
+      message: "Successfully!!!",
+      data: category,
+    });
+  } catch (err) {
+    createLogger.error(err);
+  }
+};
+
+
+const viewDetail = async (req, res) => {
+  try {
+    let category = await Category.findById(req.params.id);
+
+    if (!category)
       return res.json({ status: 404, message: "Category not found!!!" });
     return res.json({
       status: 200,
@@ -82,4 +98,4 @@ const remove = async (req, res) => {
     createLogger.error(err);
   }
 };
-module.exports = { create, update, remove, view };
+module.exports = { create, update, remove, view, viewDetail };

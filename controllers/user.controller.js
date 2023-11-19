@@ -35,6 +35,37 @@ const create = async (req, res) => {
   }
 };
 
+const createBrand = async (req, res) => {
+  try {
+    let user = await User.findOne({ email: req.body.email });
+    if (user)
+      return res.json({ status: 404, message: "Email user is already!!!" });
+    if (user && user.phone === req.body.phone)
+      return res.json({ status: 404, message: "Phone user is already!!!" });
+    let role = await Role.findOne({ id: req.body.roleID });
+    const password = await bcrypt.hash(req.body.password, 10);
+
+    console.log(req.body.dateOfBirth);
+
+    let newUser = await User.create({
+      username: req.body.username,
+      password: password,
+      name: req.body.name,
+      dateOfBirth: req.body.dateOfBirth,
+      email: req.body.email,
+      role: role._id,
+    });
+    if (!newUser)
+      return res.json({ status: 404, message: "Create new User failed!!!" });
+    res.json({
+      status: 200,
+      message: "Register success!!!",
+    });
+  } catch (err) {
+    createLogger.error(err);
+  }
+};
+
 const view = async (req, res) => {
   try {
     let limit = req.params.limit;
@@ -56,6 +87,20 @@ const view = async (req, res) => {
       status: 200,
       message: "User successfully",
       data: listUser,
+    });
+  } catch (err) {
+    createLogger.error(err);
+  }
+};
+
+const viewDetail = async (req, res) => {
+  try {
+    let User = await User.findById(req.params.id);
+    if (!User) return res.json({ status: 404, message: "User not found!!!" });
+    return res.json({
+      status: 200,
+      message: "User successfully",
+      data: User,
     });
   } catch (err) {
     createLogger.error(err);
@@ -95,4 +140,4 @@ const remove = async (req, res) => {
     createLogger.error(err);
   }
 };
-module.exports = { create, update, remove, view };
+module.exports = { create, update, remove, view, viewDetail, createBrand };

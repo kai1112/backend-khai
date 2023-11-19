@@ -3,9 +3,11 @@ const createLogger = require("../middleware/logger");
 
 const create = async (req, res) => {
   try {
-    //   if (req.user.roleID.name === "admin" && req.user.roleID.status === 1) {
-    let product = await Product.findOne({ name: req.body.name });
-    if (product && product.status !== 3)
+    let product = await Product.findOne({
+      name: req.body.name,
+      status: { $not: { $eq: 3 } },
+    });
+    if (product)
       return res.json({ status: 404, message: "Product has already!!!" });
     if (req.files["avatar"] == undefined) {
       res.json({
@@ -13,15 +15,19 @@ const create = async (req, res) => {
         status: 404,
       });
     }
-    if (req.files["backgroud_avatar"] == undefined) {
-      res.json({
-        message: "product has no backgroud-avatar",
-        status: 404,
-      });
-    }
+    // if (req.files["backgroud_avatar"] == undefined) {
+    //   res.json({
+    //     message: "product has no backgroud-avatar",
+    //     status: 404,
+    //   });
+    // }
     let img = [];
-    for (let i = 0; i < req.files["backgroud_avatar"].length; i++) {
-      img.push("/" + req.files["backgroud_avatar"][i].path);
+    if (req.files["backgroud_avatar"].length > 0) {
+      for (let i = 0; i < req.files["backgroud_avatar"].length; i++) {
+        img.push("/" + req.files["backgroud_avatar"][i].path);
+      }
+    } else {
+      img = null;
     }
     let newProduct = await Product.create({
       name: req.body.name,
@@ -55,6 +61,23 @@ const view = async (req, res) => {
       "voucherID"
     );
     if (!product || product.length === 0)
+      return res.json({ status: 404, message: "Product not found!!!" });
+    return res.json({
+      status: 200,
+      message: "Successfully!!!",
+      data: product,
+    });
+  } catch (err) {
+    createLogger.error(err);
+  }
+};
+
+const viewDetail = async (req, res) => {
+  try {
+    let product = await Product.findOne({ id: req.params.id }).populate(
+      "voucherID"
+    );
+    if (!product)
       return res.json({ status: 404, message: "Product not found!!!" });
     return res.json({
       status: 200,
@@ -110,6 +133,29 @@ const remove = async (req, res) => {
   }
 };
 
+module.exports.viewPagination = async (req, res) => {
+  try {
+    let allProduct = await Product.find();
+    let Product = await Product.find()
+      .skip(20 * (req.query.page - 1))
+      .limit(20);
+
+    let total = allProduct.length;
+
+    if (Product) {
+      res.json({
+        status: 200,
+        message: "find product successfully",
+        data: { Product, totalPage: total / 20, page: req.query.page },
+      });
+    } else {
+      res.json("can not find product");
+    }
+  } catch (e) {
+    console.log({ message: "Error getting pagination manga" });
+  }
+};
+
 const findProduct = async (req, res) => {
   try {
     let product = await Product.find({
@@ -131,4 +177,4 @@ const findProduct = async (req, res) => {
     createLogger.error(err);
   }
 };
-module.exports = { create, update, remove, view, findProduct };
+module.exports = { create, update, remove, view, findProduct, viewDetail };

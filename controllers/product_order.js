@@ -3,10 +3,8 @@ const createLogger = require("../middleware/logger");
 
 const create = async (req, res) => {
   try {
-    //   if (req.user.roleID.name === "admin" && req.user.roleID.status === 1) {
     if (!req.body.product)
       return res.json({ status: 404, message: "product is required" });
-    if (!req.user) return res.json({ status: 404, message: "user not loggin" });
     if (!req.body.total)
       return res.json({ status: 404, message: "total is required" });
     let newProduct_order = await Product.create({
@@ -79,8 +77,10 @@ const remove = async (req, res) => {
         status: 404,
         message: "Product_order has been canceled!!!",
       });
-      product_order.status = 4;
-    let UpdateProduct_order = await Product_order.findOneAndUpdate(product_order);
+    product_order.status = 4;
+    let UpdateProduct_order = await Product_order.findOneAndUpdate(
+      product_order
+    );
     if (!UpdateProduct_order)
       return res.json({
         status: 404,

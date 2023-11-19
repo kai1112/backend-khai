@@ -5,13 +5,15 @@ const {
   view,
   update,
   remove,
+  viewDetail,
+  createBrand,
 } = require("../controllers/user.controller");
-
-router.get("/", view);
+const { checkRoleAdmin, checkToken } = require("../middleware/auth");
+router.get("/", checkToken, view);
+router.get("/:id", checkToken, viewDetail);
 router.post("/", create);
-router.put("/update/:id", update);
-router.delete("/remove/:id", remove);
-
-console.log(15);
+router.post("/", checkToken, checkRoleAdmin, createBrand);
+router.put("/update/:id", checkToken, update);
+router.delete("/remove/:id",checkToken, checkRoleAdmin, remove);
 
 module.exports = router;

@@ -3,8 +3,7 @@ const createLogger = require("../middleware/logger");
 
 const create = async (req, res) => {
   try {
-    //   if (req.user.roleID.name === "admin" && req.user.roleID.status === 1) {
-    let brand = await Brand.findOne({ name: req.body.name });
+    let brand = await Brand.findOne({ name: req.body.name, status: 1 });
     if (brand)
       return res.json({ status: 404, message: "Brand has already!!!" });
     let newBrand = await Brand.create({
@@ -14,7 +13,6 @@ const create = async (req, res) => {
     if (!newBrand)
       return res.json({ status: 404, message: "Create a new brand failed!" });
     return res.json({ status: 200, message: "Create a brand successfully!!!" });
-    // }
   } catch (err) {
     createLogger.error(err);
   }
@@ -24,6 +22,18 @@ const view = async (req, res) => {
   try {
     let brand = await Brand.find();
     if (!brand || brand.length == 0)
+      return res.json({ status: 404, message: "Brand not found!!!" });
+    return res.json({ status: 200, message: "Successfully!!!", data: brand });
+  } catch (err) {
+    createLogger.error(err);
+  }
+};
+
+
+const viewDetail = async (req, res) => {
+  try {
+    let brand = await Brand.findById(req.params.id);
+    if (!brand)
       return res.json({ status: 404, message: "Brand not found!!!" });
     return res.json({ status: 200, message: "Successfully!!!", data: brand });
   } catch (err) {
@@ -66,4 +76,4 @@ const remove = async (req, res) => {
     createLogger.error(err);
   }
 };
-module.exports = { create, update, remove, view };
+module.exports = { create, update, remove, view, viewDetail };

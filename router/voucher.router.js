@@ -6,10 +6,10 @@ const {
   update,
   remove,
 } = require("../controllers/voucher.controller");
-const { checkRoleAdmin } = require("../middleware/auth");
-router.get("/", checkRoleAdmin, view);
-router.post("/", checkRoleAdmin, create);
-router.put("/update/:id", checkRoleAdmin, update);
-router.delete("/remove/:id", checkRoleAdmin, remove);
+
+router.get("/",  view);
+router.post("/",  create);
+router.put("/update/:id",  update);
+router.delete("/remove/:id",  remove);
 
 module.exports = router;

@@ -30,8 +30,8 @@ var cpUpload = upload.fields([
 router.get("/", view);
 router.get("/find", findProduct);
 router.get("/:id", viewDetail);
-router.post("/", checkToken, checkRoleAdmin, cpUpload, create);
-router.put("/update/:id", checkToken, checkRoleAdmin, update);
+router.post("/",   cpUpload, create);
+router.put("/update/:id",   update);
 router.delete("/remove/:id", remove);
 
 module.exports = router;

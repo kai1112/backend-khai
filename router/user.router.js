@@ -8,12 +8,11 @@ const {
   viewDetail,
   createBrand,
 } = require("../controllers/user.controller");
-const { checkRoleAdmin, checkToken } = require("../middleware/auth");
-router.get("/", checkToken, view);
-router.get("/:id", checkToken, viewDetail);
+router.get("/",  view);
+router.get("/:id",  viewDetail);
 router.post("/", create);
-router.post("/", checkToken, checkRoleAdmin, createBrand);
-router.put("/update/:id", checkToken, update);
-router.delete("/remove/:id",checkToken, checkRoleAdmin, remove);
+router.post("/",   createBrand);
+router.put("/update/:id",  update);
+router.delete("/remove/:id",  remove);
 
 module.exports = router;
